@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MfgSetupDocument>
+    <DocType>PRO_NC_TOOL_DIALOG_COLUMN_SETUP</DocType>
+    <DocTitle>Tool Dialog Column Setup</DocTitle>
+    <DateTime>2007-07-19T09:03:31</DateTime>
+    <ApplicationInfo AppName="Pro/ENGINEER" AppVersion="M060"/>
+    <ToolDlgColSetup LockedNum="5">
+        <ToolDlgCol Num="0" Width="6">
+            <ToolDlgColProperty Name="TOOL POSITION" Type="TOOL_RECORD" Label="TOOL POSITION"/>
+        </ToolDlgCol>
+        <ToolDlgCol Num="1" Width="8">
+            <ToolDlgColProperty Name="TOOL ID" Type="TOOL_RECORD" Label="TOOL_ID"/>
+        </ToolDlgCol>
+        <ToolDlgCol Num="2" Width="10">
+            <ToolDlgColProperty Name="TOOL_TYPE" Type="TOOL_PARAM" Label="TOOL_TYPE"/>
+        </ToolDlgCol>
+        <ToolDlgCol Num="3" Width="8">
+            <ToolDlgColProperty Name="CUTTER_DIAM" Type="TOOL_PARAM" Label="CUTTER_DIAM"/>
+        </ToolDlgCol>
+        <ToolDlgCol Num="4" Width="20">
+            <ToolDlgColProperty Name="Comments" Type="TOOL_RECORD" Label="Comments"/>
+        </ToolDlgCol>
+        <ToolDlgCol Num="5" Width="6">
+            <ToolDlgColProperty Name="TOOL OFFSET NUMBER" Type="TOOL_RECORD" Label="TOOL OFFSET NUMBER"/>
+        </ToolDlgCol>
+    </ToolDlgColSetup>
+</MfgSetupDocument>

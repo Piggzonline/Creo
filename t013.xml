@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Cutting Tool Information</DocTitle>
+    <DateTime>2007-07-19T09:25:13</DateTime>
+    <ApplicationInfo AppName="Pro/ENGINEER" AppVersion="M060"/>
+    <ToolingSetup>
+        <Tool Id="T013" Type="END MILL" RefXmlId="encref_6">
+            <Attr Name="UseOutline" Value="false" DataType="boolean"/>
+            <Attr Name="ProLibraryTool" Value="false" DataType="boolean"/>
+            <Attr Name="SketchTool" Value="false" DataType="boolean"/>
+            <Attr Name="ToolByRef" Value="false" DataType="boolean"/>
+            <MfgParam Name="LENGTH_UNITS" Value="MILLIMETER"/>
+            <MfgParam Name="CUTTER_DIAM" Value="6"/>
+            <MfgParam Name="LENGTH" Value="85"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="3"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="SOLID CARBIDE"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="65"/>
+            <MfgParam Name="HOLDER_LEN" Value="40"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="55"/>
+            <MfgParam Name="TOOL_COMMENT" Value="6MM FLAT BOTTOM CUTTER"/>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="TOOL_MATERIAL" Value="Unspecified"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="METRIC"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="13500"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="m_per_min" Value="254.469"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="mm_per_min" Value="3800"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="mm_per_tooth" Value="0.0938272"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="mm" Value="3"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="mm" Value="3"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="13500"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="m_per_min" Value="254.469"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="mm_per_min" Value="4000"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="mm_per_tooth" Value="0.0987654"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="mm" Value="2"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="mm" Value="3"/>
+                </Technology>
+            </ToolCutData>
+            <ToolSetUpOnWorkcell>
+                <OffsetDataCollection>
+                    <OffsetData Tip="1" Comment="6MM FLAT BOTTOM CUTTER" OffsetZ="0.000000" Register="-1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

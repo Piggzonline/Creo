@@ -1,0 +1,11 @@
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 41:  Keyword 'PRO_TEXTURE_LIBRARY' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 46: Invalid value 'shading_high' for keyword 'SAVE_MODEL_DISPLAY'.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 56:  Keyword 'FIX_IMPORTED_SET_VIEW_ORIENT' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 99:  Keyword 'ANG_UNITS' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 119:  Keyword 'SKETCHER_DEC_PLACES' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 120:  Keyword 'SKETCHER_INTENT_MANAGER' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 138:  Keyword 'CHAMFER_45DEG_DIM_TEXT' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 148:  Keyword 'MODEL_NOTE_DISPLAY' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 177:  Keyword 'WEB_ENABLE_SUBSCRIPTION' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 336:  Keyword 'DXF_OUT_STROKE_TEXT' is not valid.
+ERROR - M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\config.pro, linenum 340:  Keyword 'SYSTEM_BACKGROUND_COLOR' is not valid.

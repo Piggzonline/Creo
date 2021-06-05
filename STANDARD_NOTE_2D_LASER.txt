@@ -1,0 +1,31 @@
+﻿{0:NOTES:}
+{2: }
+{4:  - PART TO BE MANUFACTURED BY LASER FROM 2D DXF DATA}
+{6: }
+{8:  - LINEAR TOL <500MM    500-<1500MM   1500-<3000MM}
+{10: }
+{12:    THK}
+{14:    <1MM       #0.12      #0.12        #0.12}
+{16:    >1-3MM     #0.15      #0.15        #0.15}
+{18:    >3-6MM     #0.20      #0.20        #0.20}
+{20: }
+{22:  - HOLE TOL}
+{24:       <1          #0.12}
+{26:       >1-3        #0.15}
+{28:       >3-6        #0.20}
+{30: }
+{32:- HOLE j}
+{34:       <1            0.34}
+{36:       >1-3          0.42}
+{38:       >3-6          0.57}
+{40: }
+{42:  - PART TO BE FREE FROM ALL UNCURED MATERIAL}
+{44:    AND ASSEMBLY STRUCTURES}
+{46: }
+{48:  - PART TO BE FREE FROM HARMFUL SCRATCHES, DENTS, BURRS}
+{50:    AND SHARP EDGES WHICH MAY BE DETRIMENTAL TO FUNCTION,}
+{52:    SATISFACTORY ASSEMBLY OR SAFE HANDLING.}
+{54: }
+{56:  - PART TO BE CLEAN AND FREE FROM CONTAMINATION.}
+{58: }
+{60:  - DETAILS NOT GIVEN TO BE FIT FOR PURPOSE.}

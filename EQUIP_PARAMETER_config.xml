@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<parameter_ui_configuration>
+    <dialog_type name="PARAMETER DIALOG">
+        <dialog_size>
+            <height>456</height>
+            <width>734</width>
+        </dialog_size>
+        <dialog_location>
+            <horizontal_pos>507</horizontal_pos>
+            <vertical_pos>306</vertical_pos>
+        </dialog_location>
+        <layout_visibility>
+            <parameters>Yes</parameters>
+            <relations>No</relations>
+        </layout_visibility>
+        <displayed_columns/>
+        <sortby/>
+        <filters>
+            <filter name="Default" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and all subcontexts" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and assy level features" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and submodels" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and subfeatures" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and annotation features" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and annotation elements" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and subgeometry" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+        </filters>
+        <current_filter name="Default"/>
+        <hidden_filter value="No"/>
+    </dialog_type>
+</parameter_ui_configuration>
