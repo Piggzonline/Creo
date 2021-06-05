@@ -1,12 +1,12 @@
-﻿drawing_setup_file M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\Drawing Setup.dtl
-format_setup_file M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+﻿drawing_setup_file C:\Users\Public\Documents\Drawing Setup.dtl
+format_setup_file C:\Users\Public\Documents
 pro_unit_length unit_mm
 pro_unit_mass unit_kilogram
-template_designasm M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\start_assy_exp.asm
+template_designasm C:\Users\Public\Documents\start_assy_exp.asm
 template_new_ecadasm $PRO_DIRECTORY\templates\inlbs_ecad_asm.asm
-template_drawing M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\a3_exp.frm
+template_drawing C:\Users\Public\Documents\a3_exp.frm
 template_sheetmetalpart $PRO_DIRECTORY\templates\inlbs_part_sheetmetal.prt
-template_solidpart M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\start_part_wild.prt
+template_solidpart C:\Users\Public\Documents\start_part_wild.prt
 template_boardpart $PRO_DIRECTORY\templates\inlbs_ecad_board.prt
 todays_date_note_format %dd-%mm-%yyyy
 tolerance_standard iso
@@ -23,21 +23,21 @@ axis_display NO
 pro_note_dir M:\ProE_START_FILES
 new_relation_ui yes
 new_parameter_ui yes
-pro_symbol_dir M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+pro_symbol_dir C:\Users\Public\Documents
 show_dim_sign no
 enable_component_interfaces yes
 pen1_line_weight 3
 pen2_line_weight 1
 pen3_line_weight 1
 reserved_menu_space 1.05
-mdl_tree_cfg_file M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\tree.cfg
-pro_plot_config_dir M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+mdl_tree_cfg_file C:\Users\Public\Documents\tree.cfg
+pro_plot_config_dir C:\Users\Public\Documents
 !hole_parameter_file_path \\SERVER1\CAD\AT_CAD_Config\PROE\ProStandards\holes
 make_parameters_from_fmt_tables yes
 rename_drawings_with_object both
 create_numbered_layers no
 make_proj_view_notes yes
-pro_texture_library M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+pro_texture_library C:\Users\Public\Documents
 pro_font_dir C:\WINDOWS\Fonts
 open_window_maximized yes
 bm_graph_tool excel_embedded
@@ -90,7 +90,7 @@ scope_invalid_refs COPY
 default_ext_ref_scope all
 model_allow_ref_scope_change yes
 tolerance_class FINE
-start_model_dir M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+start_model_dir C:\Users\Public\Documents
 ! STORAGE OPTIONS !
 save_object_in_current yes
 override_store_back no
@@ -106,12 +106,12 @@ tol_display yes
 drawing_file_editor editor
 relation_file_editor editor
 ! SETUP DIRECTORIES !
-pro_dtl_setup_dir M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
-pro_format_dir M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+pro_dtl_setup_dir C:\Users\Public\Documents
+pro_format_dir C:\Users\Public\Documents
 ! PLOTTING OPTIONS !
 use_8_plotter_pens no
 use_software_linefonts no
-pen_table_file M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+pen_table_file C:\Users\Public\Documents
 ! LAYERS !
 ! ADDITIONAL DRAWING-SPECIFIC LAYERS !
 ! SKETCHER OPTIONS !
@@ -183,135 +183,18 @@ iges_out_all_srfs_as 128
 iges_out_trim_curve_deviation .015
 skip_small_surfaces no
 number_user_colors >40
-browser_favorite C:\Program Files\proeWildfire 4.0\html\usascii\proe\h\
-elpSysTop\resource_center_index.htm 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+browser_favorite C:\Program Files\proeWildfire 4.0\html\usascii\proe\h\elpSysTop\resource_center_index.htm 
 file_open_default_folder default
 sim_solver_memory_allocation 8000
 sim_mat_poissons_notation jones
-search_path_file M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
-pro_colormap_path M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+search_path_file C:\Users\Public\Documents
+pro_colormap_path C:\Users\Public\Documents
 dxf_out_stroke_text none
 step_appearance_layers_groups yes
 pdf_use_pentable no
 logical_objects yes
 system_background_color 15.686275 17.254902 17.647059
-system_colors_file M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES\syscol.scl
+system_colors_file C:\Users\Public\Documents\syscol.scl
 ! MAPKEYS !
 mapkey wc @MAPKEY_NAMEWindow Close;@MAPKEY_LABELWindow Close;\
 mapkey(continued) ~ Close `main_dlg_cur` `main_dlg_cur`;
@@ -437,6 +320,6 @@ mapkey(continued) ~ Command `ProCmdSelFilterSet` 15;
 mapkey dt @MAPKEY_NAMEDisplay Tags;@MAPKEY_LABELDisplay Tags;\
 mapkey(continued) ~ Command `ProCmdEnvDtmPlnTagDisp`  1;~ Command `ProCmdEnvAxisTagDisp`  1;\
 mapkey(continued) ~ Command `ProCmdEnvPntsTxt`  1;
-hole_parameter_file_path M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
-intf_profile_dir M:\ENGINEERING - GENERAL\CAD\ProE_START_FILES
+hole_parameter_file_path C:\Users\Public\Documents
+intf_profile_dir C:\Users\Public\Documents
 PATH_ABS_SAVESCREWS
